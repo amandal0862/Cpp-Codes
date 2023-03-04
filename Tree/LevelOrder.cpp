@@ -50,7 +50,7 @@ int main(){
 
         for(int i=1 ; i<=s ; i++){
             node* d = q.front();
-            cout<<d->data;
+            cout<<d->data<<" ";
             q.pop();
 
             if(d->left != NULL){
